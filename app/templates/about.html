@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+
+{% block content %}
+    <div class="about-me-container">
+        <h3> Hi, I'm Lulu! </h3>
+        <h2>I love books!</h2>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aliquid quo ipsa itaque animi id porro voluptatibus et, beatae molestiae ratione enim provident molestias culpa libero sed, alias nemo rem.
+        </p>
+        
+        <img src="{{ url_for('static', filename='transparent-logo.png') }}">
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,156 @@
+/* This is for the homepage and general site */
+body {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.container {
+    font-family: 'Water Brush', cursive;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* This is for the navbar */
+.navbar {
+    background-color: black;
+}
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+    text-align: right;    
+}
+
+.nav-item {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    
+}
+
+/* This is for signup page */
+.col-md-6, .col-md-6, .col-md-4, .col-12 {
+    color: black(255, 255, 255);
+    font-family: 'Rock Salt', cursive;
+    font-size: 10px;
+    padding-bottom: 1%;
+    width: 20%;
+}
+
+.sign-up-container { 
+    justify-content: center;
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Rock Salt', cursive;   
+    
+}
+
+.form-check-label, .form-text, .form-label, .form-control, .col-form-label, .btn-primary {
+    font-family: 'DM Serif Display', serif ;
+    font-size: 15px;
+}
+
+.form-text {
+    color:black;
+    font-family: 'DM Serif Display', serif ;
+}
+
+.mb-3, .col-form-label, .form-label {
+    font-family: 'Rock Salt', cursive;
+    color:black;
+    width: fit-content;
+    font-size: 10px;
+}
+
+.login-container { 
+    padding-left: 10%;
+    padding-top: 10%;
+    flex-direction: flex;
+
+}
+
+.first-name.form-control {
+    width: 30px;
+}
+
+
+.about-me-container { 
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    text-align: center;
+    padding-top: 10%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.email {
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.username {
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+} 
+
+
+.password-text {
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+} 
+
+
+
+.password-space{
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+} 
+.sign-in-button {
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.email, .username, .password-text {
+    padding: 10pt;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.form-group { 
+    color:black;
+    margin-top: 20px;
+    padding: 10pt;
+    justify-content: center;
+    border-radius: 15px 50px 30px 5px;
+    width: 200px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.middle-enter {
+    justify-content: right;
+}
+
+.introduction {
+    margin: 20px;
+    text-align: center;
+    color:black;
+    font-family: 'Rock Salt', cursive;
+}
+
+.image1 {
+    padding: 10%;
+}

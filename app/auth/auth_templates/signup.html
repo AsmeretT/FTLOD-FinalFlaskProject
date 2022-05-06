@@ -1,0 +1,30 @@
+
+{% extends 'base.html'%}
+
+{% block content %}
+<form class="sign-up-container" method="POST">
+  {{ form.hidden_tag() }}
+  <div class="email" autocomplete="off">
+      <!-- <p><strong><small>Email</small></strong></p> -->
+      {{ form.email(class='input-space', placeholder='Email') }}
+  </div>
+  <div class="username">
+      {{ form.username(class='input-space', placeholder='Username', autocomplete="off") }}
+   
+  </div>
+
+  <div class="password-text" autocomplete="off">
+      <!-- <p><strong><small>Password</small></strong></p> -->
+      {{ form.password(class='input-space', placeholder='Password') }}
+  </div>
+  <div class="password-space" autocomplete="off">
+      
+      {{ form.confirm_password(class='input-space', placeholder='Confirm Password') }}
+  </div>
+  <div class="sign-in-button"> 
+    {{ form.submit }}  
+  </div>
+</form>
+
+  
+{% endblock content %}
